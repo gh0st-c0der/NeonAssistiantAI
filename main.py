@@ -1,7 +1,7 @@
 import telebot
 import random
 
-token = open('bot_toke.txt')
+token = open('bot_token.txt')
 token = token.read()
 
 bot = telebot.TeleBot(token)
